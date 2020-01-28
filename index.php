@@ -3,4 +3,5 @@
  echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'];
  echo "<br><br>\n";
  echo "My Uid is : ".getmyuid();
+ echo  "My euid is : " .posix_geteuid();
  ?>
